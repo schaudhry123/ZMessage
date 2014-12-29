@@ -10,7 +10,7 @@
 
 <body>
 	<div data-role="page" id="main">
-		<div data-role="tabs">
+		<div data-role="tabs" data-position="fixed">
 			<!-- Navbar -->
 			<div data-role="navbar">
 			    <ul>
@@ -26,12 +26,12 @@
 				<h3 class="ui-bar ui-bar-a ui-corner-all">Home Content</h3>
 				<div class="ui-body">
 					<ul data-role="listview">
-						<li><a href="#page-2009">2009</a></li>
-						<li><a href="#page-2010">2010</a></li>
-						<li><a href="#page-2011">2011</a></li>
-						<li><a href="#page-2012">2012</a></li>
-						<li><a href="#page-2013">2013</a></li>
-						<li><a href="#page-2014">2014</a></li>
+						<li><a href="#page1">2009</a></li>
+						<li><a href="#">2010</a></li>
+						<li><a href="#">2011</a></li>
+						<li><a href="#">2012</a></li>
+						<li><a href="#">2013</a></li>
+						<li><a href="#">2014</a></li>
 					</ul>
 				</div>
 			</div>
@@ -63,55 +63,17 @@
 		</div>
 	</div>
 
-
-
-	<!-- 2009 Page -->
-	<div data-role="page" id="page-2009" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hallo this is 2009</h1>
+	<div data-role="page" id="page1">
+		<!-- Navbar -->
+		<div data-role="navbar">
+		    <ul>
+		        <li><a href="#home"	 data-ajax="false" data-theme="b" class="ui-btn-active ui-state-persist">Home</a></li>
+		        <li><a href="#sales" data-ajax="false">Sales</a></li>
+		        <li><a href="#three" data-ajax="false">Three</a></li>
+		        <li><a href="#four"  data-ajax="false">Four</a></li>
+		    </ul>
 		</div>
-	</div>
-
-	<!-- 2010 Page -->
-	<div data-role="page" id="page-2010" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2010</h1>
-		</div>
-	</div>
-
-	<!-- 2011 Page -->
-	<div data-role="page" id="page-2011" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2011</h1>
-		</div>
-	</div>
-
-	<!-- 2009 Page -->
-	<div data-role="page" id="2012" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2012</h1>
-		</div>
-	</div>
-
-	<!-- 2013 Page -->
-	<div data-role="page" id="page-2013" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2013</h1>
-		</div>
-	</div>
-
-	<!-- 2014 Page -->
-	<div data-role="page" id="page-2013" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2013</h1>
-		</div>
-	</div>
-
-	<!-- 2015 Page -->
-	<div data-role="page" id="page-2014" data-add-back-btn="true">
-		<div data-role="header" data-add-back-btn="true">
-			<h1>Hello this is 2014</h1>
-		</div>
+		<h1>2009 Content</h1>
 	</div>
 </body>
 </html>
