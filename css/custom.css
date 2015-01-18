@@ -4,3 +4,40 @@ body{
     text-align:center;
     /*background:rgb(51, 51, 51);*/
 }
+
+@media only screen and (max-width: 980px) {        
+.image {
+background-size: contain;
+width: 980px;
+
+}   
+ }
+
+ @media only screen  and (min-width: 981px) and (max-width: 1081px) {   
+.image {
+width: 980px;        
+        background-size: contain;
+
+}   
+ }
+
+ @media only screen  and (min-width: 1082px) and (max-width: 1181px) {  
+.image {
+   width: 1082px;
+background-size: contain;
+}   
+ }
+
+ @media only screen  and (min-width: 1182px) and (max-width: 1281px) {  
+.image {
+width: 1182px;
+background-size: contain;
+}   
+}
+
+ @media only screen  and (min-width: 400px) and (max-width: 600px) {  
+.image {
+width: 400px;
+background-size: contain;
+}   
+ }
