@@ -1,8 +1,11 @@
-body{
+.image {
+	width: 100%;
+}
+
+/*body{
     margin:0;
     padding:0;
     text-align:center;
-    /*background:rgb(51, 51, 51);*/
 }
 
 @media only screen and (max-width: 980px) {        
@@ -41,3 +44,4 @@ width: 400px;
 background-size: contain;
 }   
  }
+*/
